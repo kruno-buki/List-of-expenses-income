@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troškovnik - all</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="./animacije_gsap/animacije1.js" defer></script>
+    
+
+</head>
+
+<body>
+    <div class=form-wrapper>
+        <form class="forma-unos" action="">
+            <div class="forma1">
+                <div class="polje">
+                   
+                    <select id="tip">
+                        <option value="trošak" name='tip'>trošak</option>
+                        <option value="prihod" name="tip">prihod</option>
+                    </select>
+                </div>
+
+                <div class="polje">
+                    
+                    <input type="text" placeholder="PREMA/OD" id="toFrom" name="toFrom" required>
+                </div>
+
+                <div class="polje">
+                    
+                    <input type="date" id="datum" name="date" required placeholder="DATUM">
+                </div>
+
+                <div class="polje">
+                  
+                    <input type="number" id="amount" name="amount" required placeholder="IZNOS (HRK)">
+                </div>
+                <div>
+                    <button id="dodaj"><span id="tekstDodaj"> DODAJ</span></button>
+                </div>
+            </div>
+
+            <div class="polje polje_tekst">
+              
+                <textarea name="details" id="details" required rows="10" cols="70" placeholder="Opis"></textarea>
+                <!-- <input type="text"  name="details"> -->
+            </div>
+            
+            
+
+        </form>
+        
+    </div>
+
+    <div class="tablica-wrapper">
+        <h1>Financijski zapisnik</h1>
+        <table>
+            <thead>
+                <th>tip plaćanja</th>
+                <th>iznos</th>
+                <th>prema/od</th>
+                <th>datum</th>
+                <th>detalji</th>
+                <th>vidi više</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+            
+
+
+            
+        </table>
+
+    </div>
+
+</body>
+
+
+</html>

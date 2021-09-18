@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    
+    display:grid;
+    grid-template-columns: 1fr;
+}
+/* DETALJI: */
+h1{
+    margin:2rem;
+}
+/* index.html */
+
+.form-wrapper{
+    margin:2rem;
+    padding:1rem;
+    display:grid;
+   
+    border-radius: 5px;
+    /* border:2px solid black; */
+    grid-template-columns: 1fr;
+}
+
+.forma-unos{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit,minmax(550px,1fr));
+    gap:1rem;
+    background-color:#4180ad1b;
+    border-radius:5px;
+    padding:2rem 0 5rem 0;
+    justify-items:center; 
+     align-items:flex-start;
+}
+
+.forma1{
+    background-color: #0573c27d;
+    border-radius: 5px;;
+    display:flex;
+    flex-direction: column;
+    padding:2rem 2rem 5rem 2rem; 
+    justify-content: center;
+    align-items: center;
+    
+    position:relative;
+}
+
+.polje{
+    
+    display:flex;
+    flex-direction: column;    
+    align-items: stretch;
+    margin:.7rem;
+}
+    
+.polje input,.polje select{
+  
+    height:2rem;
+    width:200px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+button#dodaj{
+    position:absolute;
+    width:200px;
+    background-color:#0573c27d;
+    
+    padding: .8rem;
+    
+    border-radius: 5px;
+    bottom:1rem;
+    left:2.7rem;
+    
+   
+    
+}
+.polje_tekst{
+    padding:2rem; 
+    display:flex;
+    flex-direction: column;
+}
+
+
+.polje_tekst textarea{
+    
+    resize: none;
+    border: 3px solid #0573c27d;
+    border-radius: 5px;
+}
+/* body > div.form-wrapper > form > div:nth-child(3){
+    grid-column: 1/2;
+} */
+
+
+
+/* TABLICA. */
+.tablica-wrapper{
+
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.tablica-wrapper h1{
+    text-align: center;
+}
+.tablica-wrapper table{
+    border:3px solid black;
+    border-collapse: collapse;
+     
+}
+.tablica-wrapper th{
+    border:2px solid black;
+    padding:10px;
+}
+
+/* ! trošak-boja reda*/
+.red_boja_trosak{
+    background-color: #b0343489;
+    
+}
+.red_boja_prihod{
+    background-color: #34b06189;
+    
+}
+
+/* ! prihod -boja reda*/
+.tablica-wrapper td{
+    border:2px solid black;
+    text-align: center;
+    padding:17px 0;
+    cursor: pointer;
+}
+.tablica-wrapper td a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  
+}
+
+
+
+
+/* Detalji.html */
+.sviDetaljiWrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));  
+    padding:1rem;
+    margin:1rem;
+    gap:1rem;
+    
+    border-radius: 5px;;
+
+}
+.trosak{
+    background-color: #df7567b1;
+}
+.prihod{
+    background-color: #a3df67b1;
+}
+.detalji1{
+    border:2px solid black ;
+    border-radius: 5px; 
+}
+p{
+     font-weight: 700;
+     padding:.5rem;
+     margin:.5rem; 
+     font-size:x-large;
+}
+.sviDetaljiWrapper span {
+    font-weight:lighter;
+    padding:.5rem;       
+}
+
+/* detalji2*/
+.detalji2{
+    border:2px solid black ;
+    border-radius: 5px;   
+}
+.detalji2 div{
+    
+    margin:1rem;
+    border-radius: 5px;
+}
+
+
+.kontrole{
+    display:grid;
+    grid-template-columns:200px;  
+    padding:1rem;
+    margin:1rem;
+    gap:1rem;
+}
+
+.brisanje{
+    margin:0 0 0.5rem 0;
+    padding:1rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #b84b5182;
+    position:relative;
+   
+}
+.brisanje>span{
+    /* display:block; */
+    position:absolute;
+    width:3rem;
+    height:2rem;
+    top:8px;
+    left:30px;
+
+    text-align: center;
+    line-height:2rem;
+}
+.kontrole a{
+    text-decoration: none;
+    color:black;
+    background-color: #4c658782;
+    text-align: center;
+    line-height:50px;
+    border-radius: 5px;
+    font-size: x-large;
+    position:relative;
+        
+}
+.kontrole a>span{
+    position:absolute;
+    top:5px;
+    left:10px;
+    width:2rem;
+    height:2rem;
+
+    line-height:2rem;
+    text-align: center;
+
+
+
+    color:#3e70fad0
+
+
+}
+
+

@@ -1,0 +1,100 @@
+{
+  "popis": [
+    {
+      "id": 1,
+      "type": "prihod",
+      "iznos": "1523",
+      "toFrom": "Josip",
+      "date": "2019-09-16",
+      "details": "plaćanje usluge za web dizajn"
+    },
+    {
+      "id": 2,
+      "type": "trošak",
+      "iznos": "120",
+      "toFrom": "Vodovod",
+      "date": "2020-01-12",
+      "details": "plaćanje računa za vodu"
+    },
+    {
+      "id": 3,
+      "type": "prihod",
+      "iznos": "150",
+      "toFrom": "Goran",
+      "date": "2021-09-16",
+      "details": "Prijevoz od mjesta a do mjesta b"
+    },
+    {
+      "type": "trošak",
+      "iznos": "35",
+      "toFrom": "Nekome",
+      "date": "2005-09-16",
+      "details": "Plaćanje duga",
+      "id": 4
+    },
+    {
+      "type": "trošak",
+      "iznos": "50",
+      "toFrom": "Pošta",
+      "date": "1989-09-16",
+      "details": "Slanje razglednice ",
+      "id": 5
+    },
+    {
+      "type": "prihod",
+      "iznos": "2350",
+      "toFrom": "HEP",
+      "date": "1990-09-16",
+      "details": "Rad na web stranici",
+      "id": 6
+    },
+    {
+      "type": "trošak",
+      "iznos": "235",
+      "toFrom": "Nekome",
+      "date": "2021-09-16",
+      "details": "Plaćanje",
+      "id": 7
+    },
+    {
+      "type": "prihod",
+      "iznos": "235",
+      "toFrom": "Mario",
+      "date": "2021-09-14",
+      "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam, blanditiis nulla tempora voluptatum eos nobis ratione consequatur facilis, placeat molestiae fugiat. Cum neque consectetur officiis, placeat, tempore dolor eveniet quos reprehenderit delectus, a laborum voluptates ipsam dolorem incidunt consequuntur praesentium nam fuga culpa ducimus vel dicta quo tempora aspernatur! Itaque numquam ipsam praesentium modi earum, ab expedita voluptatum. Culpa, a deleniti? Delectus voluptatem commodi error tempore qui accusamus quaerat officia veritatis sit iure ex voluptas fuga dolorem consequuntur eveniet dolore excepturi, sequi deserunt. Necessitatibus quo molestiae nihil veniam consequuntur sed sunt labore hic ut! Recusandae suscipit necessitatibus, labore aliquid sit totam maxime et est aliquam voluptate is,! Sapiente eius soluta doloremque corporis facilis ipsam nobis quos officia quod, deleniti, vel in culpa tempora reiciendis, minus necessitatibus harum id libero hic ut architecto! Hic tempore eaque corporis perspiciatis exercitationem, nostrum adipisci magni temporibus voluptas odio sit fugit tempora! Quasi, odit deleniti. Neque tenetur voluptate ducimus commodi ab quaerat molestiae, pariatur enim atque, vero esse distinctio fugiat earum, reiciendis suscipit perspiciatis possimus architecto saepe. Officiis, et.",
+      "id": 19
+    },
+    {
+      "type": "trošak",
+      "iznos": "300",
+      "toFrom": "mami",
+      "date": "2021-09-08",
+      "details": "Poslao je u dućan da kupi namirnice za subotnji roštilj. ",
+      "id": 20
+    },
+    {
+      "type": "trošak",
+      "iznos": "2324124",
+      "toFrom": "HEP",
+      "date": "2021-09-17",
+      "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam, blanditiis nulla tempora voluptatum eos nobis ratione consequatur ",
+      "id": 21
+    },
+    {
+      "type": "trošak",
+      "iznos": "500",
+      "toFrom": "Lorena",
+      "date": "2021-09-16",
+      "details": "Posudba",
+      "id": 22
+    },
+    {
+      "type": "trošak",
+      "iznos": "1234",
+      "toFrom": "Joža",
+      "date": "2021-09-18",
+      "details": "qwewedqad",
+      "id": 23
+    }
+  ]
+}
