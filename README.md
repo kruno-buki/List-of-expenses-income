@@ -9,7 +9,7 @@
 - instalirati dependencies: **npm install**
 - instalirati JSON SERVER: **npm install -g json-server**
 - pokrenuti JSON SERVER: **npm run server**
-- pokrenuti LIVE SERVER: **Open With Live Server** (za Visual Studio Code)
+- pokrenuti LIVE SERVER: **Open With Live Server - index.html ** (za Visual Studio Code)
 
 
 ### OPIS/DESCRIPTION:
