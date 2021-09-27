@@ -1,6 +1,6 @@
+
+
 export const preload = {
-
-
 
     renderHardcoded: async (items: any[], id: any) => {
 
@@ -82,7 +82,7 @@ export const preload = {
         detalji2.innerHTML=template2
 
     },
-
+ 
     fetchData: async () => {
         let uri = 'http://localhost:5001/popis/'
 
@@ -94,9 +94,6 @@ export const preload = {
         } else {
             console.log("HTTP ERROR: " + res.status);
         }
-    },
-
-
-
+    }
 
 }
