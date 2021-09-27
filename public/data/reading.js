@@ -79,5 +79,5 @@ export const preload = {
         else {
             console.log("HTTP ERROR: " + res.status);
         }
-    }),
+    })
 };
